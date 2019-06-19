@@ -13,13 +13,18 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/all.css">
 
+    <!-- BX Slider CSS -->
     <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
 
+    <!-- Animate CSS -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -85,8 +90,8 @@
                         </div>
                         <div class="header-btns">
                             <!-- Header buttons -->
-                            <a class="btn btn-download" href="#">Download</a>
-                            <a class="btn btn-tour" href="#"> Take A Tour <i class="fas fa-angle-down"></i> </a>
+                            <a class="btn btn-download wow fadeInLeft" href="#">Download</a>
+                            <a class="btn btn-tour wow fadeInRight" href="#"> Take A Tour <i class="fas fa-angle-down"></i> </a>
 
                         </div>
                     </div>
@@ -131,12 +136,12 @@
                 <div class="row">
                     <div class="col-md-6">
                         <!-- About iphone -->
-                        <div class="about-iphone img-responsive">
+                        <div class="about-iphone img-responsive wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5">
                             <img src="images/about-iphone.png" alt="iphone">
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
                         <!-- Why choose us title -->
                         <div class="choose-us-title">
                             <h2>Why choose us?</h2>
@@ -148,7 +153,7 @@
                         </div>
 
                         <div class="choose-us-des">
-                            <div class="choose-us-item">
+                            <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
                                 <div><i class="fa fa-bolt"></i></div>
                                 <h2>Bonorum et Malorum</h2>
                                 <p>
@@ -160,8 +165,8 @@
                                 </p>
                             </div>
 
-                            <div class="choose-us-item">
-                                <div><i class="fa fa-bullhorn"></i></div>
+                            <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.5s">
+                                <div><i class="fa fa-flag"></i></div>
                                 <h2>Bonorum et Malorum</h2>
                                 <p>
                                     At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -172,7 +177,7 @@
                                 </p>
                             </div>
 
-                            <div class="choose-us-item">
+                            <div class="choose-us-item wow fadeInUp" data-wow-duration=".5s" data-wow-delay="1.5s">
                                 <div><i class="fa fa-bullhorn"></i></div>
                                 <h2>Bonorum et Malorum</h2>
                                 <p>
@@ -196,7 +201,7 @@
         <div class="testimonial-overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow bounceInDown">
                         <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
                             <!-- indicatores -->
                             <ol class="carousel-indicators">
@@ -264,7 +269,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <div class="section-title">
+                    <div class="section-title wow fadeIn" data-wow-duration="1s">
                         <h2> Features </h2>
                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -277,7 +282,7 @@
         <div class="features-inner-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInLeft" data-wow-duration="1s">
                         <!-- left features item 01 -->
                         <div class="left-feature-item">
                             <!-- icon -->
@@ -318,11 +323,11 @@
 
                     <div class="col-md-4">
                         <div class="feature-iphone">
-                            <img src="images/iphone-02.png" alt="feature iphone">
+                            <img class="wow bounceIn" data-wow-duration="1s" src="images/iphone-02.png" alt="feature iphone">
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 wow fadeInRight" data-wow-duration="1s">
                         <!-- right feature item 01 -->
                         <div class="right-feature-item">
                             <!-- icon -->
@@ -368,7 +373,7 @@
     <!-- Purchase Now -->
     <section class="purchase-now">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInLeftBig" data-wow-duration="1s">
                 <div class="col-md-9">
                     <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
                         voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
@@ -388,7 +393,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="section-title">
-                        <h2>Scrrens</h2>
+                        <h2>SCREENS</h2>
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                             consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
                     </div>
@@ -396,7 +401,7 @@
             </div>
         </div>
 
-        <div class="srceen-slider">
+        <div class="srceen-slider wow bounceInRight" data-wow-duration="1s">
             <div class="container">
                 <div class="row">
                     <div class="bxslider">
@@ -421,7 +426,7 @@
     <!-- Counter -->
     <section class="counter">
         <div class="counter-overlay">
-            <div class="container">
+            <div class="container wow bounceInLeft" data-wow-duration="1s">
                 <div class="row text-center">
                     <div class="col-md-3">
                         <div class="counter-item">
@@ -471,7 +476,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-duration="1s">
                     <img src="images/download-screen.png" alt="download screen">
                 </div>
             </div>
@@ -480,7 +485,7 @@
 
     <!-- Available on -->
     <section class="available-on">
-        <div class="container">
+        <div class="container wow bounceInRight" data-wow-duration="1s">
             <div class="row">
                 <div class="col-md-6">
                     <div class="available-title">
@@ -531,7 +536,7 @@
     </section>
 
     <section class="contact-us" id="CONTACT">
-        <div class="container">
+        <div class="container wow bounceIn">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="section-title">
@@ -545,7 +550,7 @@
             </div>
         </div>
 
-        <div class="contact-us-form">
+        <div class="contact-us-form wow bounceIn">
             <div class="container">
                 <form role="form">
                     <div class="row">
@@ -568,7 +573,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 wow bounceInLeft">
                     <div class="social-icons">
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
@@ -608,6 +613,9 @@
     <!-- Add Js counter lib -->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- WOW JS Lib -->
+    <script src="js/wow.min.js"></script>
 
     <!-- Custom Js -->
     <script src="js/custom.js"></script>
